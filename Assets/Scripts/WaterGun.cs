@@ -115,17 +115,17 @@ public class WaterGun : MonoBehaviour
     {
         Renderer rend = splash.GetComponent<Renderer>();
         if (rend == null) yield break;
- 
-        Color startColor = rend.material.color;
-        float elapsed = 0f;
- 
-        while (elapsed < fadeDuration)
-        {
-            float t = elapsed / fadeDuration;
-            rend.material.color = new Color(startColor.r, startColor.g, startColor.b, Mathf.Lerp(startColor.a, 0f, t));
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
+ //
+        //Color startColor = rend.material.color;
+        //float elapsed = 0f;
+ //
+        //while (elapsed < fadeDuration)
+        //{
+        //    float t = elapsed / fadeDuration;
+        //    rend.material.color = new Color(startColor.r, startColor.g, startColor.b, Mathf.Lerp(startColor.a, 0f, t));
+        //    elapsed += Time.deltaTime;
+        //    yield return null;
+        //}
  
         Destroy(splash);
     }

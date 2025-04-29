@@ -20,10 +20,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MBL_Metal
+  m_Name: MBL_bluesteel
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 6ec847bc7b1a549fb9856285d5fe944c, type: 2}
-  m_ModifiedSerializedProperties: 16
+  m_Parent: {fileID: 2100000, guid: 00922d87a86ad4083bcd84f041bd2ad7, type: 2}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -39,15 +39,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
-    - _Metallic: 1
-    - _Smoothness: 0.75
-    - _Surface: 0
-    - _ZWrite: 1
+    m_Floats: []
     m_Colors:
-    - _BaseColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-    - _Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+    - _BaseColor: {r: 0.7709594, g: 0.9588451, b: 0.990566, a: 1}
+    - _Color: {r: 0.7709594, g: 0.9588451, b: 0.99056596, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
