@@ -5,101 +5,119 @@ public class WaterGun : MonoBehaviour
 {
     public GameObject waterParticlePrefab;
     public Transform muzzlePoint;
-    public Collider sprayCollider; // Assign a trigger collider (IsTrigger = true)
+    public GameObject sprayColliderObject; // Assign a child GameObject with trigger collider
     public float fadeDuration = 1f;
      
-     public TwoHandGrabDetector grabDetector;
-     private bool isSecondHandGrabbing = false;
+    public TwoHandGrabDetector grabDetector;
+    private bool isSecondHandGrabbing = false;
 
     public Transform leftHandTransform;
     public Transform rightHandTransform;
     public float proximityThreshold = 0.25f;
  
-    public float sprayCheckRadius = 0.3f;  // radius for manual overlap check
-    public LayerMask splashLayerMask;      // layer mask for PaintSplash objects
- 
     private GameObject activeParticles;
-    private readonly Collider[] overlapResults = new Collider[10]; // reusable array for efficiency
- 
+
     void Start()
     {
-        if (sprayCollider != null)
+        // Initialize the spray collider - make sure it has the WaterSpray tag
+        if (sprayColliderObject != null)
         {
-            sprayCollider.enabled = false;
+            sprayColliderObject.tag = "WaterSpray";
+            
+            // Make sure it has a collider
+            Collider collider = sprayColliderObject.GetComponent<Collider>();
+            if (collider != null)
+            {
+                collider.isTrigger = true;
+                collider.enabled = false;
+            }
+            else
+            {
+                Debug.LogError("Spray collider object needs a Collider component");
+            }
+            
+            // Add the WaterSprayCollider component if it doesn't have it
+            if (sprayColliderObject.GetComponent<WaterSprayCollider>() == null)
+            {
+                sprayColliderObject.AddComponent<WaterSprayCollider>();
+            }
+        }
+        else
+        {
+            Debug.LogError("Spray collider object not assigned in the inspector");
         }
 
         if (grabDetector != null)
         {
             grabDetector.OnSecondHandGrabbed += HandleSecondHandGrab;
-             grabDetector.OnSecondHandReleased += HandleSecondHandRelease;
+            grabDetector.OnSecondHandReleased += HandleSecondHandRelease;
         }
     }
  
     void Update()
     {
-        if (isSecondHandGrabbing == true && IsSprayButtonPressed())
+        if (isSecondHandGrabbing && IsSprayButtonPressed())
         {
-            if (activeParticles == null)
-            {
-                activeParticles = Instantiate(waterParticlePrefab, muzzlePoint.position, muzzlePoint.rotation, muzzlePoint);
-            }
- 
-            if (sprayCollider != null)
-                sprayCollider.enabled = true;
- 
-            // Actively check for collisions while spraying
-            CheckSprayCollisions();
+            // Start spraying water
+            StartSpraying();
         }
         else
         {
-            if (activeParticles != null)
-            {
-                Destroy(activeParticles);
-                activeParticles = null;
-            }
- 
-            if (sprayCollider != null)
-                sprayCollider.enabled = false;
+            // Stop spraying water
+            StopSpraying();
         }
     }
 
-     private void HandleSecondHandGrab()
+    private void StartSpraying()
     {
-        // Do something when the second hand grabss
+        if (activeParticles == null)
+        {
+            activeParticles = Instantiate(waterParticlePrefab, muzzlePoint.position, muzzlePoint.rotation, muzzlePoint);
+        }
+
+        if (sprayColliderObject != null)
+        {
+            Collider collider = sprayColliderObject.GetComponent<Collider>();
+            if (collider != null)
+            {
+                collider.enabled = true;
+            }
+            
+            // Make sure the spray particles are positioned correctly
+            sprayColliderObject.transform.position = muzzlePoint.position;
+            sprayColliderObject.transform.rotation = muzzlePoint.rotation;
+        }
+    }
+
+    private void StopSpraying()
+    {
+        if (activeParticles != null)
+        {
+            Destroy(activeParticles);
+            activeParticles = null;
+        }
+
+        if (sprayColliderObject != null)
+        {
+            Collider collider = sprayColliderObject.GetComponent<Collider>();
+            if (collider != null)
+            {
+                collider.enabled = false;
+            }
+        }
+    }
+
+    private void HandleSecondHandGrab()
+    {
         isSecondHandGrabbing = true;
-        
-        Debug.Log("grab worked");
+        Debug.Log("Second hand grab detected");
     }
 
     private void HandleSecondHandRelease()
-{
-    isSecondHandGrabbing = false;
-    Debug.Log("release worked");
-}
- 
-    private void CheckSprayCollisions()
     {
-        int hits = Physics.OverlapSphereNonAlloc(muzzlePoint.position, sprayCheckRadius, overlapResults, splashLayerMask);
-        for (int i = 0; i < hits; i++)
-        {
-            Collider other = overlapResults[i];
-            if (other != null && other.name.StartsWith("PaintSplash"))
-            {
-                StartCoroutine(FadeAndDestroy(other.gameObject));
-            }
-        }
+        isSecondHandGrabbing = false;
+        Debug.Log("Second hand released");
     }
- 
-    //private bool IsHoldingGun()
-    //{
-    //    bool isCloseToLeftHand = Vector3.Distance(leftHandTransform.position, transform.position) < proximityThreshold;
-    //    bool isCloseToRightHand = Vector3.Distance(rightHandTransform.position, transform.position) < proximityThreshold;
- //
-    //    bool isLeftGripping = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger);
-    //    bool isRightGripping = OVRInput.Get(OVRInput.Button.SecondaryHandTrigger);
- //
-    //    return isCloseToLeftHand && isCloseToRightHand && isLeftGripping && isRightGripping;
-    //}
  
     private bool IsSprayButtonPressed()
     {
@@ -109,24 +127,5 @@ public class WaterGun : MonoBehaviour
         bool xPressed = OVRInput.Get(OVRInput.Button.Three);
  
         return rightTrigger || leftTrigger || aPressed || xPressed;
-    }
- 
-    private IEnumerator FadeAndDestroy(GameObject splash)
-    {
-        Renderer rend = splash.GetComponent<Renderer>();
-        if (rend == null) yield break;
- //
-        //Color startColor = rend.material.color;
-        //float elapsed = 0f;
- //
-        //while (elapsed < fadeDuration)
-        //{
-        //    float t = elapsed / fadeDuration;
-        //    rend.material.color = new Color(startColor.r, startColor.g, startColor.b, Mathf.Lerp(startColor.a, 0f, t));
-        //    elapsed += Time.deltaTime;
-        //    yield return null;
-        //}
- 
-        Destroy(splash);
     }
 }
