@@ -47,6 +47,9 @@ public class Outline : MonoBehaviour {
       needsUpdate = true;
     }
   }
+  [SerializeField]
+private bool startEnabled = true;
+
 
   [Serializable]
   private class ListVector3 {
@@ -97,6 +100,10 @@ public class Outline : MonoBehaviour {
 
     // Apply material properties immediately
     needsUpdate = true;
+
+    if (!startEnabled) {
+        enabled = false; // This will trigger OnDisable and remove the outline
+    }
   }
 
   void OnEnable() {
