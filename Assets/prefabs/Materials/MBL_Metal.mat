@@ -44,7 +44,6 @@ Material:
     - _DstBlendAlpha: 0
     - _Metallic: 1
     - _Smoothness: 0.75
-    - _SrcBlend: 1
     - _Surface: 0
     - _ZWrite: 1
     m_Colors:

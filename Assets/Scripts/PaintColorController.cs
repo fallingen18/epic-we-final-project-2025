@@ -20,6 +20,8 @@ public class PaintColorController : MonoBehaviour
         }
     }
 
+    private Renderer objectRenderer;
+
     private void Awake()
     {
         // Set up the singleton
@@ -29,7 +31,18 @@ public class PaintColorController : MonoBehaviour
             return;
         }
         _instance = this;
-        
+
+        objectRenderer = GetComponent<Renderer>();
+        if (objectRenderer == null)
+        {
+            Debug.LogWarning("No Renderer found on this GameObject!");
+        }
+        else
+        {
+            // Set the initial material color
+            objectRenderer.material.color = currentPaintColor;
+        }
+
         Debug.Log("PaintColorController initialized with color: " + currentPaintColor);
     }
 
@@ -45,5 +58,10 @@ public class PaintColorController : MonoBehaviour
     {
         Debug.Log("Setting paint color from " + currentPaintColor + " to " + newColor);
         currentPaintColor = newColor;
+
+        if (objectRenderer != null)
+        {
+            objectRenderer.material.color = newColor;
+        }
     }
 }

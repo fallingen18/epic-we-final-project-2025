@@ -27,34 +27,35 @@ public class PaintBucket : MonoBehaviour
     }
 
     private void CheckForPaintCannon(GameObject obj)
+{
+    if (obj.CompareTag("PaintCannon") || obj.name.Contains("Paint_Cannon"))
     {
-        // Check if this is the paint cannon (either by component or name)
-        if (obj.CompareTag("PaintCannon") || obj.name.Contains("Paint_Cannon"))
+        PaintColorController paintController = obj.GetComponentInParent<PaintColorController>();
+
+        if (paintController != null)
         {
-            PaintColorController paintController = obj.GetComponentInParent<PaintColorController>();
-            
-            if (paintController != null)
+            // Set paint color globally
+            paintController.SetPaintColor(bucketColor);
+
+            // Set projectile color directly
+            PaintProjectile.ProjectilePaintColor = bucketColor;
+
+            if (useEffect != null)
             {
-                // Apply the color change
-                paintController.SetPaintColor(bucketColor);
+                Instantiate(useEffect, transform.position, Quaternion.identity);
+            }
 
-                // Play effects
-                if (useEffect != null)
-                {
-                    Instantiate(useEffect, transform.position, Quaternion.identity);
-                }
+            if (useSound != null)
+            {
+                AudioSource.PlayClipAtPoint(useSound, transform.position);
+            }
 
-                if (useSound != null)
-                {
-                    AudioSource.PlayClipAtPoint(useSound, transform.position);
-                }
-
-                // Destroy if configured to do so
-                if (destroyAfterUse)
-                {
-                    Destroy(gameObject);
-                }
+            if (destroyAfterUse)
+            {
+                Destroy(gameObject);
             }
         }
     }
+}
+
 }
