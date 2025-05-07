@@ -6,6 +6,8 @@ public class UnChildGrab : MonoBehaviour
 {
     public GameObject objectToUnchild;
 
+    public AudioClip useSound;
+
     private Grabbable grabbable;
     private bool hasUnparented = false;  // Optional: prevents repeat unparenting
 
@@ -33,6 +35,11 @@ public class UnChildGrab : MonoBehaviour
                 objectToUnchild.transform.parent = null;
                 Debug.Log($"Unparented {objectToUnchild.name}");
                 hasUnparented = true;
+
+                if (useSound != null)
+                    {
+                        AudioSource.PlayClipAtPoint(useSound, transform.position);
+                    }
             }
             else
             {

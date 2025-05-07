@@ -7,6 +7,8 @@ public class PaintSplashAnimator : MonoBehaviour
     private SpriteRenderer sr;
     private List<Sprite> frames;
     private float frameDuration;
+
+    public AudioClip useSound;
     
     // Use the current paint color from the controller
     public void Init(SpriteRenderer renderer, List<Sprite> sprites, float duration)
@@ -38,6 +40,10 @@ public class PaintSplashAnimator : MonoBehaviour
         transform.localScale *= 0.33f;
 
         StartCoroutine(PlayAnimation());
+        if (useSound != null)
+         {
+                AudioSource.PlayClipAtPoint(useSound, transform.position);
+        }
     }
 
     IEnumerator PlayAnimation()

@@ -17,6 +17,10 @@ public class WaterGun : MonoBehaviour
  
     private GameObject activeParticles;
 
+    public AudioSource useSound;
+
+    private bool isPlayingSound = false;
+
     void Start()
     {
         // Initialize the spray collider - make sure it has the WaterSpray tag
@@ -54,19 +58,31 @@ public class WaterGun : MonoBehaviour
         }
     }
  
-    void Update()
+void Update()
+{
+    if (isSecondHandGrabbing && IsSprayButtonPressed())
     {
-        if (isSecondHandGrabbing && IsSprayButtonPressed())
+        // Start spraying water
+        StartSpraying();
+
+        if (!isPlayingSound)
         {
-            // Start spraying water
-            StartSpraying();
-        }
-        else
-        {
-            // Stop spraying water
-            StopSpraying();
+            useSound.Play();
+            isPlayingSound = true;
         }
     }
+    else
+    {
+        // Stop spraying water
+        StopSpraying();
+
+        if (isPlayingSound)
+        {
+            useSound.Stop();
+            isPlayingSound = false;
+        }
+    }
+}
 
     private void StartSpraying()
     {

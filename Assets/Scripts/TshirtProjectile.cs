@@ -20,18 +20,37 @@ public class TShirtProjectile : MonoBehaviour
             Renderer rend = hitObj.GetComponent<Renderer>();
             if (rend != null && rend.material != null && rend.material.mainTexture != null)
             {
-                string originalTexName = rend.material.mainTexture.name;
+                string currentTexName = rend.material.mainTexture.name;
 
-                string newTexName = "tsa_" + originalTexName;
-                Texture2D newTex = Resources.Load<Texture2D>(newTexName);
-
-                if (newTex != null)
+                if (currentTexName.StartsWith("tsa_"))
                 {
-                    rend.material.mainTexture = newTex;
+                    // Currently wearing TSA texture — switch back
+                    string originalTexName = currentTexName.Substring(4); // Remove "tsa_"
+                    Texture2D originalTex = Resources.Load<Texture2D>(originalTexName);
+
+                    if (originalTex != null)
+                    {
+                        rend.material.mainTexture = originalTex;
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"Original texture '{originalTexName}' not found in Resources.");
+                    }
                 }
                 else
                 {
-                    Debug.LogWarning($"Texture '{newTexName}' not found in Resources.");
+                    // Currently wearing original — switch to TSA version
+                    string tsaTexName = "tsa_" + currentTexName;
+                    Texture2D tsaTex = Resources.Load<Texture2D>(tsaTexName);
+
+                    if (tsaTex != null)
+                    {
+                        rend.material.mainTexture = tsaTex;
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"TSA texture '{tsaTexName}' not found in Resources.");
+                    }
                 }
             }
         }

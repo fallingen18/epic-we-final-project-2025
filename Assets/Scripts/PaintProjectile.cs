@@ -7,6 +7,7 @@ public class PaintProjectile : MonoBehaviour
 
     public float speed = 20f;
     public float lifeTime = 5f;
+    public AudioClip useSound;
 
     private List<Sprite> splashSprites;
     private float splashFrameDuration;
@@ -61,5 +62,10 @@ else
         splashObj.AddComponent<PaintSplashAnimator>().Init(sr, splashSprites, splashFrameDuration);
 
         Destroy(gameObject);
+
+        if (useSound != null)
+            {
+                AudioSource.PlayClipAtPoint(useSound, transform.position);
+        }
     }
 }

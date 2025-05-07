@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 718c0c9b41ed5b74b95955178fc341f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  useSound: {fileID: 8300000, guid: 7727e6ed196c8d7448d1e508ccf5c527, type: 3}
 --- !u!114 &3403795123363180610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   lifeTime: 5
+  useSound: {fileID: 8300000, guid: 7727e6ed196c8d7448d1e508ccf5c527, type: 3}
 --- !u!1 &6493075953023365781
 GameObject:
   m_ObjectHideFlags: 0

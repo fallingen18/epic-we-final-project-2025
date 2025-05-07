@@ -17,6 +17,8 @@ public class GunShooter : MonoBehaviour
     public float proximityThreshold = 0.25f; // How close the hand must be to "hold" gun
     private bool isSecondHandGrabbing = false;
 
+    public AudioClip useSound;
+
 
      private void Start()
     {
@@ -80,13 +82,18 @@ public class GunShooter : MonoBehaviour
         );
         proj.GetComponent<PaintProjectile>().Setup(splashSprites, splashFrameDuration);
         }
-else{
-    GameObject proj = Instantiate(
-            tshirtprojectilePrefab,
-            muzzlePoint.position,
-            muzzlePoint.rotation
-        );
-}
+        else{
+            GameObject proj = Instantiate(
+                    tshirtprojectilePrefab,
+                    muzzlePoint.position,
+                    muzzlePoint.rotation
+                );
+        }
+
+        if (useSound != null)
+        {
+            AudioSource.PlayClipAtPoint(useSound, transform.position);
+        }
         
     }
 }
