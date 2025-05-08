@@ -7929,15 +7929,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7990829943103493586, guid: 84e03dbaa8aa148c099541f7bb580d5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.36516
+      value: -0.374
       objectReference: {fileID: 0}
     - target: {fileID: -7990829943103493586, guid: 84e03dbaa8aa148c099541f7bb580d5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.039908
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: -7990829943103493586, guid: 84e03dbaa8aa148c099541f7bb580d5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.039103
+      value: 0.039
       objectReference: {fileID: 0}
     - target: {fileID: -7953528732947804586, guid: 84e03dbaa8aa148c099541f7bb580d5f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
