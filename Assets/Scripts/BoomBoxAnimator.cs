@@ -18,7 +18,7 @@ public class BoomBoxAnimator : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = musicClip;
         audioSource.loop = true;
-        audioSource.volume = 0.5f;
+        audioSource.volume = 0.4f;
         audioSource.spatialBlend = 1.0f; // 3D sound
         audioSource.minDistance = 1f;
         audioSource.maxDistance = 20f;
