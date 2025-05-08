@@ -69,6 +69,7 @@ void Update()
         {
             useSound.Play();
             isPlayingSound = true;
+            StartRepeatingHaptics();
         }
     }
     else
@@ -80,6 +81,7 @@ void Update()
         {
             useSound.Stop();
             isPlayingSound = false;
+            StopRepeatingHaptics();
         }
     }
 }
@@ -144,4 +146,19 @@ void Update()
  
         return rightTrigger || leftTrigger || aPressed || xPressed;
     }
+
+    void StartRepeatingHaptics()
+{
+    InvokeRepeating(nameof(PlayHaptic), 0f, 0.1f); // every 0.1 seconds
+}
+
+void StopRepeatingHaptics()
+{
+    CancelInvoke(nameof(PlayHaptic));
+}
+
+void PlayHaptic()
+{
+    HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Right, 0.5f, 0.05f);
+}
 }

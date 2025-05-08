@@ -54,6 +54,8 @@ public class PaintBucket : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+
+            HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Both, 0.5f, 0.9f);
         }
     }
 }

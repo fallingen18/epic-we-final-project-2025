@@ -94,6 +94,8 @@ public class GunShooter : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(useSound, transform.position);
         }
+
+        HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Both, 0.5f, 0.2f);
         
     }
 }
