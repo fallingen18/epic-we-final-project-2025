@@ -58,6 +58,12 @@ public class PaintBucket : MonoBehaviour
             HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Both, 0.5f, 0.9f);
         }
     }
+
+
+    if ( obj.name.Contains("Pen")){
+        LineColorManager.lineColor=bucketColor;
+        Debug.Log("line color changed");
+    }
 }
 
 }

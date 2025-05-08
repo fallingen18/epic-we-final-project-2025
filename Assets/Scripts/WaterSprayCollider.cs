@@ -10,7 +10,7 @@ public class WaterSprayCollider : MonoBehaviour
         // Verify this object has the correct tag
         if (!gameObject.CompareTag("WaterSpray"))
         {
-            Debug.LogWarning("WaterSprayCollider object should have the 'WaterSpray' tag");
+            //Debug.LogWarning("WaterSprayCollider object should have the 'WaterSpray' tag");
         }
     }
 }

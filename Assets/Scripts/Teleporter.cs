@@ -12,24 +12,24 @@ public class Teleporter : MonoBehaviour
         controller = GetComponent<CharacterController>();
         if (controller == null)
         {
-            Debug.LogError("No CharacterController found on Player!");
+            //Debug.LogError("No CharacterController found on Player!");
         }
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        Debug.Log("Collided with: " + hit.gameObject.name);
+        //Debug.Log("Collided with: " + hit.gameObject.name);
 
         if (hit.gameObject == teleportTarget)
         {
-            Debug.Log("Teleport target matched. Teleporting to: " + teleportLocation);
+            //Debug.Log("Teleport target matched. Teleporting to: " + teleportLocation);
             controller.enabled = false;
             transform.position = teleportLocation;
             controller.enabled = true;
         }
         else
         {
-            Debug.Log("Hit object is not the teleport target.");
+            //Debug.Log("Hit object is not the teleport target.");
         }
     }
 }

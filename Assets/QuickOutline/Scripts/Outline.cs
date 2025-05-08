@@ -94,6 +94,8 @@ private bool startEnabled = true;
 
     outlineMaskMaterial.name = "OutlineMask (Instance)";
     outlineFillMaterial.name = "OutlineFill (Instance)";
+    bakeKeys.Clear();
+    bakeValues.Clear();
 
     // Retrieve or generate smooth normals
     LoadSmoothNormals();
