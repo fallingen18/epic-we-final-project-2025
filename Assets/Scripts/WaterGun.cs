@@ -159,6 +159,6 @@ void StopRepeatingHaptics()
 
 void PlayHaptic()
 {
-    HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Right, 0.5f, 0.05f);
+    HapticFeedback.Instance.TriggerHaptic(HapticFeedback.ControllerHand.Both, 0.5f, 0.05f);
 }
 }

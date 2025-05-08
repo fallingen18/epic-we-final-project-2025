@@ -219,18 +219,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &149431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,18 +417,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1123926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1119,18 +1119,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &14696566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2815,18 +2815,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &68387903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3621,18 +3621,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &104446041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3850,18 +3850,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &109542744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4178,18 +4178,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &116317066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4782,18 +4782,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &129994362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5468,18 +5468,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &144013932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6108,18 +6108,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!54 &156634032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6476,18 +6476,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &159434087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7432,18 +7432,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &179861847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8006,18 +8006,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &198510805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10473,18 +10473,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &242055915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10702,18 +10702,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &245805899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11112,18 +11112,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &261888034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11488,18 +11488,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &280464198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12097,18 +12097,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &298917920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12295,18 +12295,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &305160714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12891,18 +12891,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &312290706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13835,18 +13835,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &346383672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14117,18 +14117,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &371467253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15950,18 +15950,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &379158304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16298,18 +16298,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &390536363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16496,18 +16496,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &391039322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18043,18 +18043,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &440827869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18880,18 +18880,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &465001950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19542,18 +19542,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &484087145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20049,18 +20049,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &487674937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21484,18 +21484,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &526734385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22071,18 +22071,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &545007018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23159,18 +23159,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &578247059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23357,18 +23357,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &583080893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24559,18 +24559,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &615605557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27454,18 +27454,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &644348323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28125,18 +28125,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &657964545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29124,18 +29124,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &687983791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29431,18 +29431,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &689723485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29629,18 +29629,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &691197706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30069,18 +30069,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &700215162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30703,18 +30703,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &713683114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31144,18 +31144,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &721031149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31690,18 +31690,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &732260399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32210,18 +32210,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &760450207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33464,18 +33464,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &788842327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33790,18 +33790,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &790125880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36138,18 +36138,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &834023436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37016,18 +37016,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &842588073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37451,18 +37451,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &845399320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37961,18 +37961,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &868790316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38775,18 +38775,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &889728723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40610,18 +40610,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &969936518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41120,18 +41120,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &984470759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41349,18 +41349,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &990882034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41836,18 +41836,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1016261389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42066,18 +42066,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1024648198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42326,18 +42326,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1028384866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43268,18 +43268,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1043235953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43951,18 +43951,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1070465107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44468,18 +44468,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1088343808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47178,18 +47178,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1120383343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47476,18 +47476,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1127940489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48021,18 +48021,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1141499308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48548,18 +48548,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1155558102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49334,18 +49334,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1186543856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53308,18 +53308,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1307426046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53614,18 +53614,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1308532499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54979,18 +54979,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1344209283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55342,18 +55342,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1352827244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57311,18 +57311,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1408822984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58772,18 +58772,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1450970375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58997,18 +58997,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1456308331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59356,18 +59356,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1460156303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60295,18 +60295,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1508029945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60493,18 +60493,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1508144288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60819,18 +60819,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1510295893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61715,18 +61715,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1520191499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61975,18 +61975,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1522237810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62663,18 +62663,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1543911096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63362,18 +63362,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1563585824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64259,18 +64259,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1604707209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64503,18 +64503,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1623061123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64701,18 +64701,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1637610492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64899,18 +64899,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1638236582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65502,18 +65502,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1648505208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65732,18 +65732,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1660544044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66961,18 +66961,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1673176061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67159,18 +67159,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1680056254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67837,18 +67837,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1687903263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68177,18 +68177,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1691530637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68781,18 +68781,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1715281074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69651,18 +69651,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1743684925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70802,18 +70802,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1756118774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71000,18 +71000,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1757814795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71556,18 +71556,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1767129388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72204,18 +72204,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1787920638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72569,18 +72569,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1795679336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73194,18 +73194,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1809651979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75107,18 +75107,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1852370942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76454,18 +76454,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1870933210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77757,18 +77757,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1921319786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77955,18 +77955,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1921862560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78817,18 +78817,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1945344098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79296,18 +79296,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1948875065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79494,18 +79494,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &1950028936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80922,18 +80922,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2000634872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82009,18 +82009,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2019297073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82906,18 +82906,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2050530560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83288,18 +83288,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2059056099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83806,18 +83806,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2070260269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85491,18 +85491,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2139589253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86112,18 +86112,18 @@ MonoBehaviour:
     XAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     YAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
     ZAxis:
       ConstrainAxis: 1
       AxisRange:
-        Min: 1
-        Max: 3
+        Min: 0.5
+        Max: 6
 --- !u!114 &2145599850
 MonoBehaviour:
   m_ObjectHideFlags: 0
